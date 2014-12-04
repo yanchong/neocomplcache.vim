@@ -731,7 +731,6 @@ function! neocomplcache#init#_source(source) "{{{
         \ 'converters' : [
         \      'converter_remove_next_keyword',
         \      'converter_delimiter',
-        \      'converter_case',
         \      'converter_abbr',
         \ ],
         \ 'neocomplcache__context' : copy(neocomplcache#get_context()),
